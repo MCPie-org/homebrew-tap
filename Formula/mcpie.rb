@@ -1,18 +1,18 @@
 class Mcpie < Formula
   desc "Contributor CLI for the MCPie public records network"
   homepage "https://mcpie.xyz/contribute"
-  version "0.4.8"
+  version "0.4.10"
   license "Apache-2.0"
   depends_on :macos
 
   on_arm do
-    url "https://downloads.mcpie.xyz/v0.4.8/mcpie-v0.4.8-macos-arm64.tar.gz"
-    sha256 "81bc897b98e9f4964c03d6338248b585b4a8ba4a6e6bc80f5774b6b9d31f46dd"
+    url "https://downloads.mcpie.xyz/v0.4.10/mcpie-v0.4.10-macos-arm64.tar.gz"
+    sha256 "df0da3605de42d16e5598b90ba4f6fc9638ef72e0387e6da6e39a4bf75d73601"
   end
 
   on_intel do
-    url "https://downloads.mcpie.xyz/v0.4.8/mcpie-v0.4.8-macos-x64.tar.gz"
-    sha256 "d9ed0e1b6c0ca22b6431db4efb046ca35c382ca3e095df49aa6427e49664eb79"
+    url "https://downloads.mcpie.xyz/v0.4.10/mcpie-v0.4.10-macos-x64.tar.gz"
+    sha256 "ace15bf595f08eba8b70bf2edff4f9d51a6786b55ba8c995da1c4a22eee53aca"
   end
 
   def install
